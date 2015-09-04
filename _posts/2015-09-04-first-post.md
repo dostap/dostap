@@ -1,7 +1,8 @@
 ---
 layout: post
-title: blogging newbie
+title: first post
 comments: true
+date: 2015-09-04
 ---
 
 Testing...
