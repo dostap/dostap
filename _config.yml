@@ -1,4 +1,4 @@
 name: darya's blog
 markdown: kramdown
-pagination: 2
+paginate: 1
 paginate_path: "/blog/page:num/"
