@@ -1,23 +1,24 @@
 body {
     margin: 60px auto;
-    width: 70%;
-    background-color: #c7d4ca;
+    width: 75%;
   font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 nav ul, footer ul {
-    padding: 5px;
-  
+    padding: 3%;
     list-style: none;
     font-weight: bold;
-  background-color: #f2f0f4;
   border-radius: 5px 5px 3px 3px;
-  
+  text-align:right;
   
 }
-nav ul li, footer ul li {
-    display: inline-block;
-    margin-right: 20px;
+nav ul li {
+    display: block;
+  padding: 8%;
 }
+footer ul li{
+  padding: 1%;
+}
+
 a {
     text-decoration: none;
     color: #2b392f;
@@ -47,14 +48,27 @@ ul.posts li {
     list-style: none;
 }
 
-.container {
-  background-color: #f2f0f4;
-  padding: 5px;
+topcontainer {
   border-top: 2px solid rgba(47,33,36,0.4);
   border-left: 2px solid rgba(43,57,47,0.4);
   border-radius: 5px 5px 3px 3px;
+  display:inline;
 }
 posts{
     padding: 5px;
 }
-
+.navig{
+  width: 15%;
+  padding:1%;
+  float: left;
+  margin-top:2%;
+}
+.logo{
+  width: 81%;
+  padding:1%;
+  float:left;
+  overflow: hidden;
+}
+img{
+  width:100%;
+}
