@@ -16,13 +16,13 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #819685;
-}
-a:hover {
     color: #2b392f;
 }
+a:hover {
+    color: #819685;
+}
 h1 {
-    font-size: 3em;
+    font-size: 2.5em;
   color: #2b392f;
 }
 p {
@@ -51,4 +51,8 @@ ul.posts li {
 posts{
     padding: 5px;
 }
+
+logo{
+    padding: 5px;
+    background-color: #f2f0f4;
 }
