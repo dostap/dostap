@@ -7,19 +7,24 @@
 			{% include analytics.html %}
 		</head>
 		<body>
-			<div class="container">
-				<img src="https://cloud.githubusercontent.com/assets/12255870/9697193/9d57a90a-5340-11e5-8a27-483c2e20d284.png"
+			<div class="topcontainer">
+				<div class="navig">
+				<nav>
+	    				<ul>
+	    				<li><a href="/">blog</a></li>
+		        		<li><a href="/about">about</a></li>
+	        			<li><a href="/archive">archive</a></li>
+	        			<li><a href="/cv">cv</a></li>
+	    				</ul>
+				</nav>	
+				</div>
+				
+			<div class="logo">
+				<img src="https://cloud.githubusercontent.com/assets/12255870/9700394/3ee36516-53be-11e5-81da-86744c4fc85a.png"
 				alt="logo: bright ideas by darya o.">
 			</div>
+			</div>
 			
-			<nav>
-	    		<ul>
-	    			<li><a href="/">blog</a></li>
-		        	<li><a href="/about">about</a></li>
-	        		<li><a href="/archive">archive</a></li>
-	        		<li><a href="/cv">cv</a></li>
-	    		</ul>
-			</nav>
 			<div class="container">
 			
 			{{ content }}
