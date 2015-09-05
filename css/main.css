@@ -26,8 +26,8 @@ h1 {
   color: #2b392f;
 }
 p {
-    font-size: 1.5em;
-    line-height: 1.4em;
+    font-size: 1em;
+    line-height: 1em;
     color: #333;
 }
 footer {
@@ -47,4 +47,8 @@ ul.posts li {
 .container {
   background-color: #f2f0f4;
   padding: 5px;
+}
+posts{
+    padding: 5px;
+}
 }
