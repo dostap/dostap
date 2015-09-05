@@ -1,19 +1,18 @@
 body {
     margin: 60px auto;
-    width: 75%;
+    width: 70%;
   font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 nav ul, footer ul {
-    padding: 3%;
+
     list-style: none;
     font-weight: bold;
-  border-radius: 5px 5px 3px 3px;
-  text-align:right;
+  text-align:center;
   
 }
 nav ul li {
-    display: block;
-  padding: 8%;
+    display: inline;
+  padding: 2%;
 }
 footer ul li{
   padding: 1%;
@@ -37,6 +36,8 @@ p {
 }
 footer {
     font-size: 1em;
+  border-top: 2px solid rgba(43,57,47,0.4);
+  margin-top:5%;
 }
 
 ul.posts { 
@@ -48,25 +49,19 @@ ul.posts li {
     list-style: none;
 }
 
-topcontainer {
-  border-top: 2px solid rgba(47,33,36,0.4);
-  border-left: 2px solid rgba(43,57,47,0.4);
-  border-radius: 5px 5px 3px 3px;
-  display:inline;
-}
+
 posts{
     padding: 5px;
 }
 .navig{
-  width: 15%;
-  padding:1%;
-  float: left;
-  margin-top:2%;
+  width: 100%;
+  border-top: 2px solid rgba(43,57,47,0.4);
+  border-bottom: 2px solid rgba(43,57,47,0.4);
+  margin-bottom:5%;
 }
 .logo{
-  width: 81%;
+  width: 100%;
   padding:1%;
-  float:left;
   overflow: hidden;
 }
 img{
