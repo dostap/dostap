@@ -20,19 +20,25 @@ footer ul li{
 
 a {
     text-decoration: none;
-    color: #CC5200;
+    color: #004040;
 }
 a:hover {
-    color: #B26B24;
+    color: #008F6B;
+}
+a:visited{
+    color: #004700;
+}
+nav ul li a{
+    color:#1F3D00;
 }
 h1 {
     font-size: 2.5em;
-  color: #2b392f;
+  color: #1F3D00;
 }
 p {
     font-size: 1em;
     line-height: 1.5em;
-    color: #660000;
+    color: #333300;
 }
 footer {
     font-size: 1em;
