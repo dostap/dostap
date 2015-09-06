@@ -20,7 +20,7 @@ footer ul li{
 
 a {
     text-decoration: none;
-    color: #2b392f;
+    color: ##990000;
 }
 a:hover {
     color: #819685;
@@ -31,7 +31,7 @@ h1 {
 }
 p {
     font-size: 1em;
-    line-height: 1em;
+    line-height: 1.5em;
     color: #333;
 }
 footer {
