@@ -20,10 +20,10 @@ footer ul li{
 
 a {
     text-decoration: none;
-    color: ##990000;
+    color: #CC5200;
 }
 a:hover {
-    color: #819685;
+    color: #B26B24;
 }
 h1 {
     font-size: 2.5em;
@@ -32,7 +32,7 @@ h1 {
 p {
     font-size: 1em;
     line-height: 1.5em;
-    color: #333;
+    color: #660000;
 }
 footer {
     font-size: 1em;
