@@ -73,3 +73,10 @@ posts{
 img{
   width:100%;
 }
+.pagination-item{
+  font-weight:bold;
+  color: #660033;
+}
+.post-date{
+  font-weight: 550;
+}
