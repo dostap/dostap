@@ -82,3 +82,11 @@ img{
 .post-date{
   font-weight: 550;
 }
+.room{
+      font-size:2em;
+  color: #660033;
+  font-family: 'Redressed', cursive;
+  margin-right: 1%;
+  margin-left:1%;
+
+}
