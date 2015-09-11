@@ -90,3 +90,9 @@ img{
   margin-left:1%;
 
 }
+.pagination{
+  width: 80%;
+  padding-left: 10%;
+  overflow: hidden;
+  text-align:center;
+}
