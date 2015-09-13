@@ -17,7 +17,7 @@ nav ul li {
 
 footer ul li{
   padding: 1%;
-  color: #660033;
+  color: #470047;
 }
 
 a {
@@ -34,9 +34,8 @@ nav ul li a{
     color:#1F3D00;
 }
 h1 {
-    font-size: 2.5em;
   color: #1F3D00;
-  font-family: 'News Cycle', sans-serif;
+ font-family: 'News Cycle', sans-serif;
 }
 p {
     font-size: 1em;
@@ -82,8 +81,8 @@ img{
 }
 .pagination-item{
   font-size:2em;
-  color: #660033;
-  font-family: 'Redressed', cursive;
+  color: #470047;
+  font-family: 'News Cycle', sans-serif;
 }
 .post-date{
   font-weight: 550;
@@ -91,7 +90,7 @@ img{
 .room{
       font-size:2em;
   color: #660033;
-  font-family: 'Redressed', cursive;
+ font-family: 'News Cycle', sans-serif;
   margin-right: 1%;
   margin-left:1%;
 
