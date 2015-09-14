@@ -7,17 +7,25 @@
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 			{% include analytics.html %}
 		</head>
-				
-				<div class="navig">
+				<body>
+                  <div class="navig">
 				<nav>
-	    				<ul>
+	    				<ul style="width:30%; float:left; text-align:left; padding-left:3%;">
 	    				<li><a href="/">blog</a></li>
 		        		<li><a href="/about">about</a></li>
 	        			<li><a href="/archive">archive</a></li>
 	        			<li><a href="/cv">cv</a></li>
+                  </ul>
+                  <ul style="width:30%; float:right; text-align:right;padding-right:3%;">
+                          <li>
+                            <a id="twitter_icon" href="https://twitter.com/dig14step"><img src="https://cloud.githubusercontent.com/assets/12255870/9863997/646b43b2-5b02-11e5-83a3-1c3343d6e1bb.png"></a></li>
+                          <li>
+                            <a id="email_icon" href="mailto:dig14step@gmail.com"><img src="https://cloud.githubusercontent.com/assets/12255870/9863995/62dee472-5b02-11e5-8fbe-aefc47ae6f59.png"></a></li>
 	    				</ul>
-				</nav>	
-				</div>
+                  </nav>
+                  </div>
+		
+      
       <div class="banner">
         <img src="https://cloud.githubusercontent.com/assets/12255870/9839650/03529540-5a3e-11e5-8594-6a4bc3494070.jpg" >
       </div>
@@ -26,11 +34,11 @@
 			
 			{{ content }}
 			
+			
 			</div><!-- /.container -->
 			 {% include comments.html %}
 			<footer>
 	    		<ul>
-	        		<li><a href="mailto:dig14step@gmail.com">email me</a></li>
 	        		<li>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</li>
 				</ul>
 			</footer>
