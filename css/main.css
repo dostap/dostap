@@ -3,13 +3,19 @@ body {
     width: 60%;
   font-family: 'News Cycle', sans-serif;
 }
-nav ul, footer ul {
 
+nav ul{
+    font-weight: bold;
+  display: inline;
+  margin:1%;
+}
+
+footer ul {
     list-style: none;
     font-weight: bold;
   text-align:center;
-  
 }
+
 nav ul li {
     display: inline;
   padding: 2%;
@@ -66,17 +72,15 @@ posts{
   width: 100%;
   border-bottom: 2px solid rgba(43,57,47,0.4);
   border-top: 2px solid rgba(43,57,47,0.4);
-  margin-bottom:0;
+  margin:0;
+  padding:0;
+  display:inline-block;
 }
 
-img{
-  width:100%;
-  border-bottom: 2px solid rgba(43,57,47,0.4);
-}
-.banner{
+.banner img{
   width:100%;
   padding:0;
-  
+    border-bottom: 2px solid rgba(43,57,47,0.4);
   margin-bottom:3%;
 }
 .pagination-item{
@@ -99,4 +103,9 @@ img{
   width: 100%;
   overflow: hidden;
   text-align:center;
+}
+#twitter_icon img, #email_icon img{
+  width:25PX;
+  padding-top:1%;
+  margin:0;
 }
