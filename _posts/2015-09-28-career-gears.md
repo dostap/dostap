@@ -1,4 +1,4 @@
---
+---
 layout: post
 title: "shifting career gears... or just jumping off the bike"
 date: 2015-09-28
