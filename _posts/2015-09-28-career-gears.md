@@ -12,7 +12,7 @@ These days when I give people an update on my life, the conversation tends to be
 
 The question, whether I get asked it or not, is why in the world would I give up a career in electrical engineering, after spending four years getting my degree, and then spending three years in the industry and being just a year away from getting my professional designation in Alberta. Well, this is my answer to that.
 
-Different things have different worth to different people. There are people out there who would give up their entire net worth to go to space, while, personally, I would think for a month before getting payed to leave Earth. Different strokes for different folks, as they say.  (Though, I have to dmit, finding liquid water on Mars, gains it a lot of points as real estate...)
+Different things have different worth to different people. There are people out there who would give up their entire net worth to go to space, while, personally, I would think for a month before getting payed to leave Earth. Different strokes for different folks, as they say.  (Though, I have to admit, finding liquid water on Mars, gains it a lot of points as real estate...)
 
 I have always viewed time as the most precious resource, since you are only given so much of it. And how I spend my time becomes highly important to me. Yes, I could spend more years in my previous career, but I want the fastest track to where I want to end up. The goal right now is to learn programming, and to get the job that would be interesting, fulfilling and enjoyable. 
 
