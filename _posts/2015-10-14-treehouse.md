@@ -15,4 +15,4 @@ For the longest time I scoffed at Treehouse, mostly, to be honest, after getting
 
 Treehouse has impressed me though. The videos are high quality,  there are wonderful animations and a great structure of teaching. Videos are short and on point, and there are quizzes and coding challenges to ensure you're paying attention. Gamification is at play, as you receive points for completion of any work, including watching a video. Basically - it is fun and you learn things, the best that life can offer. 
 
-Here is [my referral link] (http://referrals.trhou.se/daryaostapenko) if you want to get an account, or, if you are not inclined to support your favourite programming noob - here is a link to [Treehouse] (https://teamtreehouse.com/home) without any referral attached. 
+Here is [my referral link](http://referrals.trhou.se/daryaostapenko) if you want to get an account, or, if you are not inclined to support your favourite programming noob - here is a link to [Treehouse](https://teamtreehouse.com/home) without any referral attached. 
