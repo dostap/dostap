@@ -29,10 +29,10 @@ footer ul li{
 
 a {
     text-decoration: none;
-    color: #470047;
+    color: #660066;
 }
 a:hover {
-    color: #008F6B;
+    font-weight: bold;
 }
 a:visited{
     color: #004700;
