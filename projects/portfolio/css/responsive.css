@@ -1,0 +1,84 @@
+/*if horizontal resolution is greater than 480px,
+it is not a mobile device, so apply the following */
+@media screen and (min-width: 480px){
+
+  /************
+  2 column layout
+  ************/
+  #primary {
+    width: 50%;
+    float: left;
+  }
+  
+  #secondary {
+    width:40%;
+    float:right;
+  }
+  
+  /************
+  3 column layout
+  3*5 = 15% for margins
+  100 - 15 = 85%
+  85/3 = 28.3333 % of each column
+  ************/
+  
+  /************
+  Page - Portfolio
+  *************/
+  
+  #gallery li {
+    width: 28.33333%
+  }
+  
+  #gallery li:nth-child(3n+1){
+    clear:left;
+  }
+  
+  /************
+  Page - About
+  *************/
+  .profile-pic {
+    float:left;
+    margin: 0 5% 50px 0;
+  }
+  
+}
+
+/* if screen greater than 660px do the following*/
+@media screen and (min-width: 660px){
+  
+  /************
+  HEADER
+  *************/
+  
+  nav {
+    float:right;
+    background: none;
+    font-size: 1.2em;
+    margin-right: 4%;
+    text-align: right;
+    width: 50%;
+  }
+  
+  #logo {
+    float: left;
+    margin-left: 4%;
+    text-align: left;
+    width: 40%;
+  }
+  
+  h1{
+    font-size: 2.5em;
+  }
+  h2{
+    font-size: 1.3em;
+    margin-bottom: 20px;
+  }
+  
+  header {
+    border-bottom: 2px solid #766c89;
+    margin-bottom: 60px;
+  }
+  
+}
+

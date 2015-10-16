@@ -1,0 +1,199 @@
+/********************
+General
+*********************/
+
+
+/* site body */
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #443732;
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #827c8d;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+  
+}
+
+header{
+  background: linear-gradient(#827c8d 10%,#e7e8e9) ;
+  border-color: #A39792;
+  font-family: 'Poiret One', cursive;
+  font-weight: 600;
+  padding: 10px 0 0 0;
+  float:left;
+  margin: 0 0 30px 0;
+  width: 100%;
+}
+
+h1, h2 {
+  color: #fff;
+  margin:15px 0;
+  line-height: 0.8em;
+  font-weight: normal;
+}
+
+h2 {
+  margin: -5px 0 0;
+  
+}
+
+h3 {
+  margin: 0 0 1em 0;
+  
+}
+
+/************************
+Navigation
+**************************/
+
+nav{
+  background: #dddedf ;
+  font-size: 1.2em;
+  padding: 15px 0;
+  margin: 20px 0 0;
+  text-align: center;
+}
+
+nav ul {
+ list-style:none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+ display: inline-block; 
+}
+
+nav a, nav a:visited {
+  color: #fff;
+}
+
+nav a.selected, nav a:hover {
+  color: #362C28;
+}
+
+nav a {
+  padding: 15px 10px;
+}
+
+/***********************
+Footer
+************************/
+
+footer {
+  font-size: 1em;
+  text-align: center;
+  padding-top: 30px;
+  color: #ccc;
+  clear: both;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+/********************
+Gallery
+********************/
+
+img {
+  max-width: 100%;
+  /*image will fill container*/
+}
+
+#gallery {
+  margin: 0;
+  padding:0;
+  list-style:none;
+}
+
+#gallery li {
+ float:left;
+  width:45%;
+  margin: 2.5%;
+  /* entire 100% of width taken*/
+  color: #362C28;
+  background-color: #ecedee;
+}
+
+#gallery li a p {
+  margin: 0;
+  padding: 2.5%;
+  font-size: 1em;
+  color: #827c8d;
+}
+
+/******************
+PAGE : ABOUT
+*******************/
+
+.profile-pic {
+  display: block;
+  max-width: 200px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+  border: solid 5px #dddedf;
+}
+
+p {
+  text-align:center;
+}
+
+.title {
+  text-align:center;
+  font-weight:500;
+  color: #766c89;
+  padding-top: 20px;
+}
+
+/******************
+PAGE : CONTACT
+*******************/
+
+.contact {
+  list-style: none;
+  padding: 0;
+  margin:0;
+}
+.contact a{
+  display: inline;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  color: #443732;
+  text-align:center;
+}
+.contact li{
+  text-align:center;
+    margin: 0 0 10px;
+}
+.contact li.phone a{
+   background-image: url('../img/phone.png');
+}
+.contact li.mail a{
+   background-image: url('../img/mail.png');
+}
+.contact li.twitter a{
+   background-image: url('../img/twitter.png');
+}
+
+
+
+
+
