@@ -3,28 +3,53 @@ body {
     width: 60%;
   font-family: 'News Cycle', sans-serif;
 }
+nav{
+  text-align: center;
+  padding: 15px 0;
+  margin: 0 0;
+}
 
 nav ul{
-    font-weight: bold;
-  display: inline;
-  margin-top:1%;
+  font-weight: bold;
+  list-style:none;
+   margin: 1% 10px;
   padding:0;
 }
 
+nav li {
+ display: inline; 
+  padding: 0 2% ;
+  margin: 1%;
+  width:100%;
+}
+p {
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #333300;
+}
 footer ul {
     list-style: none;
-    font-weight: bold;
+  margin:1%;
+}
+footer li {
+ display: inline-block; 
+
+}
+
+footer {
+    font-size: 1em;
+  font-weight: bold;
+  border-top: 2px solid rgba(43,57,47,0.4);
   text-align:center;
-}
-
-nav ul li {
-    display: inline;
-  padding: 2% ;
-}
-
-footer ul li{
-  padding: 1%;
   color: #470047;
+  padding: 0;
+}
+
+footer p{
+  color: #470047;
+  margin-bottom: 2%;
+  margin-top :0;
+  padding: 0;
 }
 
 a {
@@ -42,17 +67,8 @@ h1 {
   color: #1F3D00;
  font-family: 'News Cycle', sans-serif;
 }
-p {
-    font-size: 1em;
-    line-height: 1.5em;
-    color: #333300;
-}
-footer {
-    font-size: 1em;
-  border-top: 2px solid rgba(43,57,47,0.4);
-  
-  margin-top:3%;
-}
+
+
 
 ul.posts { 
     margin: 20px auto 40px; 
@@ -104,14 +120,10 @@ posts{
   text-align:center;
 }
 #twitter_icon img, #email_icon img{
-  width:25PX;
+  width:25px;
   padding-top:1%;
   margin:0;
 }
-
-/******
-portfolio page styling
-*******/
 
 #projects-list{
   margin: 0;
@@ -126,14 +138,3 @@ portfolio page styling
 .screenshot {
   max-width: 100%;
 }
-
-
-
-
-
-
-
-
-
-
-

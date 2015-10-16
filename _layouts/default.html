@@ -8,24 +8,16 @@
 			{% include analytics.html %}
 		</head>
 				<body>
-                  <div class="navig">
 				<nav>
-	    				<ul style="width:30%; float:left; text-align:left; padding-left:3%;">
-	    				<li style="color: #470047">&#60;darya o.&#62;</li>
+	    				<ul>
+	    				<li style="color: #470047">darya o.</li>
 	    				<li><a href="/">blog</a></li>
 		        		<li><a href="/about">about</a></li>
-		        		<li><a href="/projects">my projects</a></li>
+		        		<li><a href="/projects">projects</a></li>
 	        			<!--<li><a href="/archive">archive</a></li>-->
 	        			<!--<li><a href="/cv">cv</a></li>-->
                   </ul>
-                  <ul style="width:30%; float:right; text-align:right;padding-right:3%;">
-                          <li>
-                            <a id="twitter_icon" href="https://twitter.com/dig14step"><img src="https://cloud.githubusercontent.com/assets/12255870/9863997/646b43b2-5b02-11e5-83a3-1c3343d6e1bb.png"></a></li>
-                          <li>
-                            <a id="email_icon" href="mailto:dig14step@gmail.com"><img src="https://cloud.githubusercontent.com/assets/12255870/9863995/62dee472-5b02-11e5-8fbe-aefc47ae6f59.png"></a></li>
-	    				</ul>
                   </nav>
-                  </div>
 		
       
       <div class="banner">
@@ -40,9 +32,13 @@
 			</div><!-- /.container -->
 			 {% include comments.html %}
 			<footer>
-	    		<ul>
-	        		<li>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</li>
-				</ul>
+              <ul>
+                          <li>
+                            <a id="twitter_icon" href="https://twitter.com/dig14step"><img src="https://cloud.githubusercontent.com/assets/12255870/9863997/646b43b2-5b02-11e5-83a3-1c3343d6e1bb.png"></a></li>
+                          <li>
+                            <a id="email_icon" href="mailto:dig14step@gmail.com"><img src="https://cloud.githubusercontent.com/assets/12255870/9863995/62dee472-5b02-11e5-8fbe-aefc47ae6f59.png"></a></li>
+	    				</ul>
+              <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
 			</footer>
 		</body>
 	</html>
