@@ -109,7 +109,23 @@ posts{
   margin:0;
 }
 
+/******
+portfolio page styling
+*******/
 
+#projects-list{
+  margin: 0;
+  padding:0;
+  list-style:none;
+}
+#projects-list li {
+  width:100%;
+  margin: 2.5%;
+}
+
+.screenshot {
+  max-width: 100%;
+}
 
 
 
