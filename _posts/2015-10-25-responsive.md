@@ -22,6 +22,7 @@ Basically, media queries is how you will differentiate between the different dev
 ### 3. Using relative units.
 If the units are relative, scaling up and down should not be a problem at all. There are percentages of course, em (the height of the element's font = 16px) and rem (root em: the pixel size rem translates to depends on the font size of the "root" element of the page, html element). This includes whitespace - padding and margins, though you can get away with pixels very often. 
 
-### 4. Skipping content and page anchors - better user experience, especially on a smaller device where you would have to scroll a lot. Remember to make your anchor tags relevant to your page, since the words contained in the anchor text impact the ranking that the page will receive by search engines. 
+### 4. Skipping content and page anchors.
+This makes for better user experience, especially on a smaller device where you would have to scroll a lot. Remember to make your anchor tags relevant to your page, since the words contained in the anchor text impact the ranking that the page will receive by search engines. 
 
 Take a look at my [projects page](http://dostap.github.io/projects/) to see an example of a responsive portfolio website. 
