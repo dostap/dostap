@@ -1,0 +1,112 @@
+.emptySquare {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 1px;
+  /*padding: 5px;*/
+  background-color: #D1D1E0;
+}
+.goalSquare {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 1px;
+  background-color: #900048;
+}
+.obstacleSquare {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 1px;
+  background-color: #48C285;
+}
+.pathSquare {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 1px;
+  background-color: #FFC041;
+}
+
+.emptySquare:hover {
+    background-color:#52527A;
+    cursor:pointer;
+  /* this would make the square pop... not sure about the aesthetics though
+  width: 12px;
+  height: 12px;
+  */
+}
+
+.clicked {
+  background-color:#52527A;
+}
+
+.container {
+ width: 380px;
+ margin: 3% auto;
+}
+
+.chosenSquare {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 1px;
+  background-color: #70DBDB;
+}
+p {
+  text-align: center;
+  color: #33334C;
+  font-family: 'Salsa', cursive;
+  margin: 5px auto;
+  
+}
+
+button,input {
+  background: #a9a3c7;
+  background-image: -webkit-linear-gradient(top, #a9a3c7, #dfe0f0);
+  background-image: -moz-linear-gradient(top, #a9a3c7, #dfe0f0);
+  background-image: -ms-linear-gradient(top, #a9a3c7, #dfe0f0);
+  background-image: -o-linear-gradient(top, #a9a3c7, #dfe0f0);
+  background-image: linear-gradient(to bottom, #a9a3c7, #dfe0f0);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #662866;
+  font-size: 16px;
+  padding: 2% 5%;
+  text-decoration: none;
+  margin-left: auto ;
+  margin-right: auto ;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  align-content: center;
+}
+
+button:hover, input:hover {
+  background: #fcf7ff;
+  background-image: -webkit-linear-gradient(top, #fcf7ff, #b69dc7);
+  background-image: -moz-linear-gradient(top, #fcf7ff, #b69dc7);
+  background-image: -ms-linear-gradient(top, #fcf7ff, #b69dc7);
+  background-image: -o-linear-gradient(top, #fcf7ff, #b69dc7);
+  background-image: linear-gradient(to bottom, #fcf7ff, #b69dc7);
+  text-decoration: none;
+}
+
+.buttons {
+  margin-left: auto ;
+  margin-right: auto ;
+  margin-top: 15px;
+  width: 120px;
+}
+
+#answerMessage {
+  padding: 3px;
+  margin: 3px auto;
+}
+
+form{
+ margin: 0 auto;
+ width: 125px;
+ align-content: center;
+}
