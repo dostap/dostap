@@ -20,7 +20,7 @@ Consider small devices first and create your foundation with the smaller resolut
 Basically, media queries is how you will differentiate between the different devices and capture the screen width. This is essential for Step 1.  Remember to set your viewport and size your content to it. [Here](http://learn.shayhowe.com/advanced-html-css/responsive-web-design/) is a great tutorial on how to actually accomplish this.
 
 ### 3. Using relative units.
-If the units are relative, scaling up and down should not be a problem at all. There are percentages of course, em (the height of the element's font = 16px) and rem (root em: the pixel size rem translates to depends on the font size of the "root" element of the page, html element). This includes whitespace - padding and margins, though you can get away with pixels very often. 
+If the units are relative, scaling up and down should not be a problem at all. There are percentages of course, em (the height of the element's font = 16px) and rem (root em: depends on the font size of the "root" element of the page, html element). This includes whitespace - padding and margins, though you can get away with pixels very often. 
 
 ### 4. Skipping content and page anchors.
 This makes for better user experience, especially on a smaller device where you would have to scroll a lot. Remember to make your anchor tags relevant to your page, since the words contained in the anchor text impact the ranking that the page will receive by search engines. 
