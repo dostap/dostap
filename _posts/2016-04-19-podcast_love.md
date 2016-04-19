@@ -5,7 +5,7 @@ date: 2016-04-19
 comments: true
 ---
 
-Once upon a time, a time not so long away, in your favourite app store, you could find a magical blue icon: the fantastical Songza creature. The one with a toothy smile and crazy eyes? 
+Once upon a time, a time not so long ago, in your favourite app store, you could find a magical blue icon: the fantastical Songza creature. The one with a toothy smile and crazy eyes? 
 
 The music app was one of my favourites and I was said to see it go and morph into Google Music. While I am a general fan of the Google apps, Google Music has failed to befriend me. I think it was the fact that I am a creature of habit, and the UI has changed just enough to throw me off. I could not find my favourite playlists. And there seemed to be ads, constantly. And surprisingly to me? The ads were for podcasts.
 
