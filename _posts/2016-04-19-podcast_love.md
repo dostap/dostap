@@ -26,4 +26,4 @@ This is a delightfully cooky ... audio drama. It is ...special, featuring charac
 These guys know .NET, also - other things, such as best practices and what it really means to be an Intermediate or a Senior Developer. Apparently, they are still learning programming, and I am still learning from them about all the things I don't know. Thanks, guys!
 
 ### 5. [Serial](https://serialpodcast.org/)
-You cannot fail to mention a classic, can you? The gripping first Season was worse than Netflix, when it comes to  
+You cannot fail to mention a classic, can you? The gripping first Season was worse than Netflix, when it comes to binging on a good story. It is a murder mystery, and it is real life, and I am pretty sure this is the podcast that made me truly appreciate the podcast art. 
